@@ -1,0 +1,14 @@
+.footer__copyright {
+    list-style-type: none;
+    margin-top: 12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}

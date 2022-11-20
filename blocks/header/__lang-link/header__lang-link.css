@@ -1,0 +1,21 @@
+.header__lang-link{
+
+    margin-left: auto;
+    /* буп до буп */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    padding-left:18px;
+    text-align: right;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+.header__lang-link:first-child{
+    padding-left: 0;
+}
+.header__lang-link:last-child{
+    margin-left: 0;
+}

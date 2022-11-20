@@ -1,0 +1,12 @@
+.place{
+    /* display: grid;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text"; */
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 66px;
+}
