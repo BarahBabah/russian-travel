@@ -5,6 +5,7 @@
     max-height: 460px;
     grid-area: image;
 }
+
 @media screen and (min-width:746px) {
     .place__image{
         margin: 0;
