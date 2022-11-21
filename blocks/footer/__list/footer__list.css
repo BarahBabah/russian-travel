@@ -1,15 +1,14 @@
-.footer__list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    display: grid;
-    row-gap: 32px;
+.footer__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  row-gap: 32px;
 }
 
 @media screen and (min-width:768px) {
-    .footer__list{
-        display: flex;
-        column-gap: 18px;
-    }
+  .footer__list {
+    display: flex;
+    column-gap: 18px;
+  }
 }

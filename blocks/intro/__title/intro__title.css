@@ -1,38 +1,40 @@
 .intro__title {
-    margin: 0;
-    padding: 0 16px 40px 16px;
-    /* font*/
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-    /* or 109% */
+  margin: 0;
+  padding: 0 16px 40px 16px;
+  /* font*/
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  /* or 109% */
 
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
-    .intro__title {
-        padding: 0 24px 40px 24px;
-        /* шрифты */
-        font-size: 54px;
-        line-height: 58px;
-    }
+  .intro__title {
+    padding: 0 24px 40px 24px;
+    /* шрифты */
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
+
 @media screen and (min-width:1024px) {
-    .intro__title {
-        padding: 0 286px 40px 48px;
-        /* шрифты */
-        font-size: 54px;
-        line-height: 58px;
-    }
+  .intro__title {
+    padding: 0 286px 40px 48px;
+    /* шрифты */
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
+
 @media screen and (min-width:1280px) {
-    .intro__title {
-        padding: 0 442px 40px 148px;
-        /* шрифты */
-        font-size: 54px;
-        line-height: 58px;
-    }
+  .intro__title {
+    padding: 0 442px 40px 148px;
+    /* шрифты */
+    font-size: 54px;
+    line-height: 58px;
+  }
 }

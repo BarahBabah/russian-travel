@@ -1,15 +1,10 @@
-.intro__list-item{
-    list-style: none;
-
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
-    
-    
-    color: #FFFFFF;
-
-color: #FFFFFF;
+.intro__list-item {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  color: #FFFFFF;
 }
