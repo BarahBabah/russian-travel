@@ -37,7 +37,6 @@
 @import url(../blocks/places/places.css);
 
 /* Place */
-@import url(../blocks/hover-link/hover-link.css);
 @import url(../blocks/places/place/__list/place__list.css);
 @import url(../blocks/places/place/__text/place__text.css);
 /* list и text сверху */
