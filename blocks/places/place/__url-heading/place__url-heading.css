@@ -13,7 +13,7 @@
     color: #AAAAAA;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1024px) {
     .place__url-heading {
         line-height: 170%;
         /* or 20px */

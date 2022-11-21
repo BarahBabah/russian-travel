@@ -7,7 +7,7 @@
     row-gap: 32px;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
     .footer__list{
         display: flex;
         column-gap: 18px;
