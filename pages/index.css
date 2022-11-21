@@ -10,7 +10,7 @@
 
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_active/header_lang-link_active.css);
+@import url(../blocks/header/__current/header_lang-link_current.css);
 
 /* Lead */
 @import url(../blocks/lead/lead.css);
@@ -36,10 +36,9 @@
 
 /* Places */
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/place/__list/places__list.css);
 
 /* Place */
-
-@import url(../blocks/places/place/__list/place__list.css);
 @import url(../blocks/places/place/__text/place__text.css);
 /* list и text сверху */
 @import url(../blocks/places/place/place.css);
