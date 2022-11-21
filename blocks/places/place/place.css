@@ -1,12 +1,33 @@
-.place{
-    /* display: grid;
-    grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "text"; */
+.place {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    padding-bottom: 66px;
+    row-gap: 32px;
+    padding-bottom: 50px;
+}
+.place:last-of-type{
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 746px) {
+    .place {
+        padding-bottom: 73px;
+        display: grid;
+        row-gap:48px;
+        column-gap: 28px;
+        grid-template-areas:
+            "title website"
+            "image text";
+    }
+}
+@media screen and (min-width: 1024px) {
+    .place{
+        padding-bottom: 80px;
+        row-gap: 48px;
+        column-gap:32px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .place{
+        column-gap:40px;
+    }
 }

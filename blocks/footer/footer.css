@@ -2,3 +2,16 @@
     box-sizing: border-box;
     padding: 64px 0px 24px 16px;
 }
+
+@media screen and (min-width:700px) {
+    .footer{
+        padding: 88px 24px 24px 24px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .footer{
+        padding: 92px 48px 24px 48px;
+    }
+    
+}
