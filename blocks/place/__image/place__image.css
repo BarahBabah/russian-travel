@@ -1,12 +1,17 @@
 .place__image {
+  margin: auto;
+  min-width: 200px;
+  /* margin и min-width добавил чтобы на разрешениях ниже 320px картинка не превращалась в нечто ужасное ==> чтобы макет не ломался */
   width: 100vw;
   max-width: 320px;
-  max-height: 320px;
+  /* max-height: 320px; */
   grid-area: image;
 }
 
 @media screen and (min-width:768px) {
   .place__image {
+    margin: 0;
+    min-width: 0;
     max-width: 340px;
   }
 }
