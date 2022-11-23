@@ -1,7 +1,7 @@
 .places {
   /* margin: auto; */
   /* max-width: 320px; */
-  padding: 0 16px 66px 16px;
+  padding: 0 0 66px 0;
 }
 
 @media screen and (min-width: 768px) {
